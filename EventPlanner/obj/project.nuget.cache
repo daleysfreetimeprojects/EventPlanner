@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ltywKLlAseRrPDICBuUyLpi9ujUaFTOCdPOLC4+h/+91swN7xbbJeEzzSJfDg2JsD2uPFCaOOjolV8lSiRHSQA==",
+  "dgSpecHash": "sU2eD+ZAf6kHqxicPsCWyStA5J/GIQRbFGI8yj36uqIxil21Q1DV/9LKMw/wrFqdycF+pGn5NPo35xjG+SPI4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
+  "projectFilePath": "C:\\Users\\daley\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\daley\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\daley\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

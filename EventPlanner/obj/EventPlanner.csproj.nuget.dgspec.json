@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\EventPlanner.csproj": {}
+    "C:\\Users\\daley\\EventPlanner\\EventPlanner\\EventPlanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\EventPlanner.csproj": {
+    "C:\\Users\\daley\\EventPlanner\\EventPlanner\\EventPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\daley\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
         "projectName": "EventPlanner",
-        "projectPath": "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
+        "projectPath": "C:\\Users\\daley\\EventPlanner\\EventPlanner\\EventPlanner.csproj",
         "packagesPath": "C:\\Users\\daley\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daley\\Projects\\EventPlanner\\EventPlanner\\obj\\",
+        "outputPath": "C:\\Users\\daley\\EventPlanner\\EventPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\daley\\AppData\\Roaming\\NuGet\\NuGet.Config",
