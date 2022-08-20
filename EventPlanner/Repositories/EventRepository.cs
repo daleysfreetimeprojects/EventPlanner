@@ -5,14 +5,14 @@ namespace EventPlanner.Repositories
 {
     public class EventRepository : IEventRepository
     {
-
+        private readonly EventPlannerContext _eventPlannerContext;
+        public EventRepository(EventPlannerContext eventPlannerContext)
+        {
+            _eventPlannerContext = eventPlannerContext;
+        }
         public List<EventType> GetEventTypes()
         {
-            var eventTypes = new List<EventType>();
-            using (var ctx = new EventPlannerContext())
-            {
-                eventTypes = ctx.EventTypes.ToList();
-            }
+            var eventTypes = _eventPlannerContext.EventTypes.ToList();
             return eventTypes;
         }
     }

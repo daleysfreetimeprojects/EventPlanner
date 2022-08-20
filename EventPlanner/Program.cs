@@ -1,4 +1,5 @@
 using EventPlanner.Interfaces;
+using EventPlanner.Models;
 using EventPlanner.Repositories;
 using EventPlanner.Services;
 
@@ -13,6 +14,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IEventService, EventService>();
+
+builder.Services.AddDbContext<EventPlannerContext>();
 
 var app = builder.Build();
 
