@@ -1,5 +1,6 @@
 using EventPlanner.Interfaces;
 using EventPlanner.Repositories;
+using EventPlanner.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IEventRepository, EventRepository>();
+builder.Services.AddScoped<IEventService, EventService>();
 
 var app = builder.Build();
 

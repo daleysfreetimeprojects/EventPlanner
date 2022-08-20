@@ -1,7 +1,5 @@
 ﻿using EventPlanner.Interfaces;
 using EventPlanner.Models;
-using EventPlanner.Repositories;
-using EventPlanner.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventPlanner.Controllers
@@ -10,10 +8,17 @@ namespace EventPlanner.Controllers
     [Route("[controller]")]
     public class EventController : ControllerBase
     {
+        private readonly IEventService _eventService;
+
+        public EventController(IEventService eventService)
+        {
+            _eventService = eventService;
+        }
+
         [HttpGet(Name = "GetEventTypes")]
         public List<EventType> GetEventTypes()
         {
-            return new EventService(new EventRepository()).GetEventTypes();
+            return _eventService.GetEventTypes();
         }
 
     }
