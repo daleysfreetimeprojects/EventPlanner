@@ -1,6 +1,5 @@
 ﻿using EventPlanner.Interfaces;
 using EventPlanner.Models;
-using EventPlanner.Repositories;
 
 namespace EventPlanner.Services
 {
