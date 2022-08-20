@@ -1,8 +1,9 @@
-﻿using EventPlanner.Models;
+﻿using EventPlanner.Interfaces;
+using EventPlanner.Models;
 
 namespace EventPlanner.Repositories
 {
-    public class EventRepository
+    public class EventRepository : IEventRepository
     {
 
         public List<EventType> GetEventTypes()

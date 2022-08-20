@@ -1,4 +1,6 @@
-﻿using EventPlanner.Models;
+﻿using EventPlanner.Interfaces;
+using EventPlanner.Models;
+using EventPlanner.Repositories;
 using EventPlanner.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +13,7 @@ namespace EventPlanner.Controllers
         [HttpGet(Name = "GetEventTypes")]
         public List<EventType> GetEventTypes()
         {
-            return new EventService().GetEventTypes();
+            return new EventService(new EventRepository()).GetEventTypes();
         }
 
     }
